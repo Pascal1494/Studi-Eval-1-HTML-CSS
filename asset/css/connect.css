@@ -1,0 +1,100 @@
+/*Fond d'écran*/
+
+.login-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(222, 153, 224, 0.5), rgba(255, 255, 0, 0.5)), url(../img/freins.jpg) center/cover, no-repeat;
+}
+
+section.login-container>div {
+    width: 450px;
+    /* height: 30vh; */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #4b2e45;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+}
+
+
+/* mise en place du style sur le formulaire*/
+
+section.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="password"],
+form input[type="text"],
+form button[type="submit"] {
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+}
+
+
+/*
+    Changement de couleur au survol
+*/
+
+form input[type="text"]:focus,
+form input[type="text"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover {
+    background-color: #ccc;
+}
+
+
+/*
+    Mises-en forme du bouton pour l’envoi du formulaire.
+*/
+
+form button[type="submit"] {
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+    background-color: #0a0a0a;
+    color: #ffff;
+}
+
+
+/*
+    Mises-en forme du bouton pour l’envoi du formulaire au survol et au focus.
+*/
+
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+    background-color: #ffff;
+    color: #0a0a0a;
+}
+
+
+/****************************************************/
+
+
+/* Styles de base pour la page Web */
+
+
+/*------------------
+   Base
+------------------*/
+
+body {
+    background-color: white;
+    font-family: 'roboto', Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #dd12dd;
+}

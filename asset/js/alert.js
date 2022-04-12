@@ -1,0 +1,1 @@
+window.alert("Ce site est un exercise, cette association n'existe pas")

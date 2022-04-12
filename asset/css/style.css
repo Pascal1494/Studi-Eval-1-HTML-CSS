@@ -1,0 +1,264 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,900&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    body {
+        background: linear-gradient(rgba(222, 153, 224, 0.5), rgba(255, 255, 0, 0.5)), url(../img/freins.jpg) center/cover, no-repeat;
+    }
+    
+    header {
+        position: sticky;
+        top: 0;
+        margin-bottom: -18px;
+        padding: 0;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .top h1 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 15px;
+    }
+    
+    p {
+        padding: 5px;
+    }
+    /* ----------------------------------------------------------------------------------------------------------------- */
+    /* Page d'accueuil */
+    
+    .body-page {
+        /* display: flex; */
+        justify-content: center;
+        /* width: 100%; */
+        /* height: 75vh; */
+        /* border: 1px solid red; */
+    }
+    
+    .linear-grey {
+        display: block;
+        justify-content: center;
+        padding: 15px;
+        background: #151a2065;
+        color: #ccc;
+        /* background: #f08c8c;
+    background: linear-gradient(206deg, #f08c8c 15%, #737c73 90%);
+    background: -webkit-linear-gradient(206deg, #f08c8c 15%, #737c73 90%);
+    background: -moz-linear-gradient(206deg, #f08c8c 15%, #737c73 90%); */
+    }
+    
+    .left-image {
+        margin: 10px auto;
+        width: 70%;
+    }
+    
+    .left-image img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1600px;
+        box-shadow: 17px -12px 28px 0px rgba(0, 0, 0, 0.58);
+        -webkit-box-shadow: 17px -12px 28px 0px rgba(0, 0, 0, 0.58);
+        -moz-box-shadow: 17px -12px 28px 0px rgba(0, 0, 0, 0.58);
+        border-radius: 12px;
+    }
+    
+    .description {
+        text-align: justify;
+    }
+    
+    .description a {
+        text-decoration: none;
+        color: rgb(104, 15, 81);
+        transition: 0.35s ease-in;
+    }
+    
+    .description a:hover {
+        color: antiquewhite;
+        text-transform: uppercase;
+    }
+    
+    #mail a {
+        text-transform: none;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+        background: #151a2065;
+    }
+    
+    footer img {
+        width: 25px;
+        margin: 10px;
+    }
+    
+    .space-pos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        width: 100%;
+    }
+    
+    .space-pos strong,
+    .space-pos p {
+        margin: 0 10px;
+    }
+    
+    .mention a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.58);
+        transition: 0.35s ease-in-out;
+    }
+    
+    .mention a:hover {
+        color: black;
+    }
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* Page  nous contacter */
+    
+    .body-page-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    
+    .center-box {
+        width: 40%;
+        min-width: 420px;
+        height: auto;
+        background-color: #4b2e45;
+        border-radius: 40px;
+        box-shadow: 46px 57px 107px 6px rgba(171, 153, 153, 0.75);
+        -webkit-box-shadow: 46px 57px 50px 8px rgba(44, 42, 42, 0.75);
+        -moz-box-shadow: 46px 57px 107px 6px rgba(171, 153, 153, 0.75);
+    }
+    /* Mise en page formulaire */
+    
+    .formulaire {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    input[type=text],
+    textarea,
+    input[type=email] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        resize: vertical;
+    }
+    
+    label {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    
+    input[type=submit] {
+        background-color: #151a20;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #e3e8ee;
+        color: black
+    }
+    
+    .container {
+        /* Ajouter box-sizing */
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 100%;
+        /* redéfinition 400 + 2*20 */
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    
+    .parm {
+        color: #dd12dd;
+        width: 100%;
+    }
+    
+    #form {
+        margin-top: -30px;
+        height: 70px;
+    }
+    
+    #submit {
+        margin-bottom: 20px;
+    }
+    /* ------------------------------------------------------------------------------------------------------- */
+    /* Media queries */
+    
+    @media screen and (min-width:770px) {
+        #root {
+            display: flex;
+            justify-content: center;
+            min-width: 100vw;
+            margin: 0 auto;
+        }
+        #topnav {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 1.4em;
+        }
+        .body-page {
+            display: flex;
+            justify-content: center;
+            /* width: 100%; */
+            /* height: 75vh; */
+            /* border: 1px solid red; */
+        }
+        .linear-grey {
+            /* display: flex; */
+            justify-content: center;
+            padding: 15px;
+            width: 80%;
+            /* background: #f08c8c;
+        background: linear-gradient(206deg, #f08c8c 15%, #737c73 90%);
+        background: -webkit-linear-gradient(206deg, #f08c8c 15%, #737c73 90%);
+        background: -moz-linear-gradient(206deg, #f08c8c 15%, #737c73 90%); */
+        }
+        .left-image {
+            width: 60%;
+        }
+        .description {
+            width: 62%;
+            margin: 0 auto;
+        }
+        footer {
+            position: relative;
+            height: 15vh;
+            width: 80%;
+            /* background: linear-gradient(206deg, #f08c8c 30%, #737c73 60%);
+        background: -webkit-linear-gradient(200deg, #f08c8c 10%, #737c73 80%);
+        background: -moz-linear-gradient(206deg, #f08c8c 15%, #737c73 60%); */
+        }
+    }

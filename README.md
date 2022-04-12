@@ -3,4 +3,6 @@ Première évaluation Html Css: Site d'une assocation réelle ou fictive uniquem
 
 C'est mon premier devoir  qui sera contrôler par mes formateur. 
 Pour cet exercise, j'ai  utilisé principalement du CSs S pure et plusieurs pages HTML  des différents onglets du menu.
-Le menu hamburger fait appel à un framework bootstrap.(LE site doit être responsive)
+Le site doir être responsive.
+
+j'ai utilisé du CSS pur  pour toutes les pages de ce site,  hormis  pour  les formulaires où j'ai plutôt utilisé Bootstrap .

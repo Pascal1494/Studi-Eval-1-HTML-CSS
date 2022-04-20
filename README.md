@@ -1,7 +1,7 @@
 # Studi-Eval-1-HTML-CSS
 Première évaluation Html Css: Site d'une assocation réelle ou fictive uniquement en Html, css, boostrap.
 
-<<<<<<< HEAD
+
 C'est mon premier devoir  qui sera contrôlé par mes formateur. 
 Pour cet exercise, j'ai  utilisé principalement du CSS  pure et plusieurs pages HTML  des différents onglets du menu.
 Le site doit être responsive.
@@ -13,10 +13,4 @@ Concernant le page des manifestations, j'ai utilisé la méthode display. J'aura
 Petite entorse au devoir, n'utilisant pas du tout Bootstrap, Je ne sais pas faire un menu responsive sans utiliser le langage Javascript, qui me permet de faire diparaitre le menu standard et le remplacer par le menu burger......
 
 
-=======
-C'est mon premier devoir  qui sera contrôler par mes formateur. 
-Pour cet exercise, j'ai  utilisé principalement du CSs S pure et plusieurs pages HTML  des différents onglets du menu.
-Le site doit être responsive.
 
-j'ai utilisé du CSS pur  pour toutes les pages de ce site,  même pour les formulaires.
->>>>>>> 2e7e88f34b77eda4c430ec692bae3c5400899308

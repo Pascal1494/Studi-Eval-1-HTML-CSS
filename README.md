@@ -1,5 +1,5 @@
 # Studi-Eval-1-HTML-CSS
-Première évaluation Html Css: Site d'une assocation réelle ou fictive uniquement en Html, css, boostrap.
+Première évaluation Html Css: Site d'une assocation réelle ou fictive uniquement en Html, CSS, boostrap.
 
 
 C'est mon premier devoir  qui sera contrôlé par mes formateur. 
